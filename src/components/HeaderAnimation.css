@@ -1,0 +1,154 @@
+/* h1 {
+  font-size: 4.5rem;
+  text-align: center;
+} */
+
+.type-animation {
+  display: inline-flex;
+  flex-direction: row;
+  width: 0;
+  overflow: hidden;
+  padding-right: 0.08em;
+  position: relative;
+}
+.type-animation:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -0.05em;
+  bottom: -0.05em;
+  width: 0.08em;
+  border-right: 2px solid transparent;
+}
+.type-animation.animating {
+  -webkit-animation: type 5s infinite;
+  animation: type 5s infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.type-animation.animating:after {
+  -webkit-animation: cursor 320ms 8.625 ease-in-out;
+  animation: cursor 320ms 8.625 ease-in-out;
+}
+
+.pulsate {
+  -webkit-animation: pulsate 10s ease-out;
+  animation: pulsate 10s ease-out;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  opacity: 0;
+
+  margin-left: 0.5rem;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cursor {
+  0%,
+  100% {
+    border-color: #f7f3ff;
+  }
+  50% {
+    border-color: #241b5b;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #f7f3ff;
+  }
+  50% {
+    border-color: #241b5b;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes type {
+  11.1111111111% {
+    width: 2.49em;
+  }
+  22.2222222222% {
+    width: 2.98em;
+  }
+  33.3333333333% {
+    width: 3.47em;
+  }
+  44.4444444444% {
+    width: 3.96em;
+  }
+  55.5555555556% {
+    width: 4.45em;
+  }
+  66.6666666667% {
+    width: 4.94em;
+  }
+  77.7777777778% {
+    width: 5.43em;
+  }
+  88.8888888889% {
+    width: 6em;
+  }
+  100% {
+    width: 6em;
+    padding-right: 0;
+  }
+}
+@keyframes type {
+  11.1111111111% {
+    width: 2.49em;
+  }
+  22.2222222222% {
+    width: 2.98em;
+  }
+  33.3333333333% {
+    width: 3.47em;
+  }
+  44.4444444444% {
+    width: 3.96em;
+  }
+  55.5555555556% {
+    width: 4.45em;
+  }
+  66.6666666667% {
+    width: 4.94em;
+  }
+  77.7777777778% {
+    width: 5.43em;
+  }
+  88.8888888889% {
+    width: 6em;
+  }
+  100% {
+    width: 6em;
+    padding-right: 0;
+  }
+}

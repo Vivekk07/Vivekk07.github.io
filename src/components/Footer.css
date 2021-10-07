@@ -1,0 +1,22 @@
+.footer__container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  margin: 0 0.5rem;
+}
+
+i {
+  color: black;
+  transition: 0.2s;
+}
+
+i:hover {
+  color: #555;
+}

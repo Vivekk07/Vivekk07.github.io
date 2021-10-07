@@ -1,0 +1,28 @@
+.body__container {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  width: 100%;
+}
+
+.bodyProject__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subBody__container {
+  /* max-width: 50rem; */
+}
+
+@media (max-width: 920px) {
+  .bodyProject__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    width: 100%;
+  }
+}

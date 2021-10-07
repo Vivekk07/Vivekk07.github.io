@@ -1,0 +1,39 @@
+.intro__container {
+  max-width: auto;
+  padding: 0 1rem;
+}
+
+.waving-hand {
+  animation: wave 2.1s 1s infinite;
+  transform-origin: 75% 75%;
+  display: inline-block;
+  margin-left: 7px;
+  transition: 1s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  10% {
+    transform: scale(1.1) rotate(16deg);
+  }
+  20% {
+    transform: scale(1.1) rotate(-6deg);
+  }
+  30% {
+    transform: scale(1.1) rotate(16deg);
+  }
+  40% {
+    transform: scale(1.1) rotate(-4deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(16deg);
+  }
+  60% {
+    transform: scale(1.1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
