@@ -27,7 +27,12 @@ function MainBody() {
             link="https://ivivek.me/Tailwind-Image-Gallery/"
             code="https://github.com/Vivekk07/Tailwind-Image-Gallery"
           />
-          <Project title="Project4" logo="" link="" code="" />
+          <Project
+            title="blogLy"
+            logo="https://raw.githubusercontent.com/Vivekk07/blogLy/main/public/favicon.ico"
+            link="https://blog-ly.vercel.app/"
+            code="https://github.com/Vivekk07/blogLy"
+          />
         </div>
       </div>
     </div>
