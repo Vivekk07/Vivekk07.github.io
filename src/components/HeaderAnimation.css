@@ -29,8 +29,8 @@
   animation-delay: 1s;
 }
 .type-animation.animating:after {
-  -webkit-animation: cursor 320ms 8.625 ease-in-out;
-  animation: cursor 320ms 8.625 ease-in-out;
+  -webkit-animation: cursor 500ms infinite ease-in-out;
+  animation: cursor 500ms infinite ease-in-out;
 }
 
 .pulsate {
@@ -46,24 +46,24 @@
 
 @-webkit-keyframes pulsate {
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.2;
   }
 }
 @keyframes pulsate {
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.2;
   }
 }
 
@@ -118,7 +118,7 @@
     width: 6em;
   }
   100% {
-    width: 6em;
+    width: 6.5em;
     padding-right: 0;
   }
 }
@@ -148,7 +148,7 @@
     width: 6em;
   }
   100% {
-    width: 6em;
+    width: 6.5em;
     padding-right: 0;
   }
 }

@@ -16,9 +16,17 @@ function Header() {
         <span>Currently open for opportunities</span>
       </div> */}
       <div className="tagline">
-        <p className="line">Currently open for</p>
-        <span className="type-animation animating">opportunities</span>
-        <p className="pulsate">🔎</p>
+        <p className="line">Currently Working at:</p>
+        <span className="type-animation animating">
+          Vistaar<span className="transparentSpacer">i</span>Digital
+        </span>
+        <p className="pulsate">
+          <img
+            src="https://www.vistaardigital.com/wp-content/uploads/2020/06/vistaar-logo.jpg"
+            alt=""
+            className="companyLogo"
+          />
+        </p>
       </div>
     </div>
   );

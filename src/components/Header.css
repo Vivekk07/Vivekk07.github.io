@@ -27,6 +27,15 @@
   font-size: 1.5rem;
 }
 
+.companyLogo {
+  height: 3rem;
+  margin: 0;
+}
+
+.transparentSpacer {
+  color: transparent;
+}
+
 .tagline .line {
   margin-right: 0.5rem;
 }

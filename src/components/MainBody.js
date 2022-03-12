@@ -16,7 +16,7 @@ function MainBody() {
             code="https://github.com/Vivekk07/TrailerFlix"
           />
           <Project
-            title="Punchat"
+            title="Slack Clone"
             logo="https://raw.githubusercontent.com/Vivekk07/PunChat/main/public/favicon.ico"
             link="https://pun-chat.web.app/"
             code="https://github.com/Vivekk07/PunChat"
