@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import "./HeaderAnimation.css";
 import photo from "../assets/photo.png";
+import Logo from "../assets/logo";
 
 function Header() {
   return (
@@ -17,15 +18,14 @@ function Header() {
       </div> */}
       <div className="tagline">
         <p className="line">Currently Working at:</p>
-        <span className="type-animation animating">
-          Vistaar<span className="transparentSpacer">i</span>Digital
-        </span>
+        <span className="type-animation animating">Imprezz</span>
         <p className="pulsate">
-          <img
+          {/* <img
             src="https://www.vistaardigital.com/wp-content/uploads/2020/06/vistaar-logo.jpg"
             alt=""
             className="companyLogo"
-          />
+          /> */}
+          <Logo />
         </p>
       </div>
     </div>
